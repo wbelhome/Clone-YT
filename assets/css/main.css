@@ -1,0 +1,128 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#button{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.header .menu{
+    display: flex;
+}
+
+.menu .menu-yt{
+    display: flex;
+    padding: 10px;
+}
+
+.menu .icon-yt{
+    display: flex;
+    padding: 10px;
+}
+
+.header .search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.search .input-search input{
+    border: 1px solid black;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 50px 0px 0px 50px;
+    width: 400px;
+    height: 40px;
+    border-right: none;
+    font-weight: 700;
+}
+
+.search #button{
+    display: flex;
+    width: 50px;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.search #button:hover{
+    border-color: #000;
+    background-color: rgb(70, 70, 70);
+}
+
+.header .icon-right{
+    display: flex;
+    gap: 20px;
+    padding-right: 15px;
+}
+
+#button .icon-avatar{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    background-color: aqua;
+}
+
+.container .conteudo{
+    margin: 10px 10px 10px 60px;
+}
+
+.conteudo p{
+    font-size: 1rem;
+    font-weight: 700;  
+}
+
+.conteudo .info-canal{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+}
+
+.info-canal .icon-avatar-canal #button{
+    display: flex;
+    align-items: center;
+}
+
+.info-canal .nome-canal{
+    display: flex;
+    flex-direction: column;
+   
+}
+.info-canal .nome-canal h1{
+    text-align: left;
+    padding-left: 10px;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.info-canal .nome-canal h2{
+    padding-left: 10px;
+    font-size: .9rem;
+    font-weight: 200;
+}
+
+.info-canal .icons-video{
+    margin-left: 100px;
+    background-color: red;
+}
+
+.info-canal .icons-video #button{
+    color: #fff;
+    width: 200px;
+    height: 42px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+.aside{
+    background-color: blueviolet;
+}
