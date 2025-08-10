@@ -19,26 +19,6 @@ Consolidar conceitos aprendidos no curso
 🖼 Prévia do Projeto
 ![Prévia do Projeto](/assets/images/previa.png)
 
-
-
-📂 Estrutura de Pastas
-plaintext
-Copiar
-Editar
-📦 clone-youtube-flexbox
- ┣ 📂 assets       # Imagens e ícones utilizados no projeto
- ┣ 📂 css          # Arquivos de estilo
- ┣ 📜 index.html   # Página principal
- ┗ 📜 README.md    # Documentação do projeto
-📖 Como Executar
-Clone este repositório:
-
-bash
-Copiar
-Editar
-git clone https://github.com/wbelhome/clone-YT.git
-Abra o arquivo index.html no navegador.
-
 📚 Aprendizados
 Durante o desenvolvimento, foram reforçados conceitos como:
 
